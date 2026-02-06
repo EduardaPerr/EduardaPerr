@@ -1,6 +1,5 @@
 <div>
   <h2 align="center">Oii, eu sou a Maria Eduarda, estudante de SI </h2>
-  <h3>"Your focus determines your reality."</h3>
 </div>
 
 <div style="display: inline_block"><br>
