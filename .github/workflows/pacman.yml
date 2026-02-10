@@ -1,0 +1,33 @@
+name: generate animation
+
+on:
+  # executa automaticamente a cada 24 horas
+  schedule:
+    - cron: "0 */24 * * *" 
+  
+  # permite executar manualmente a qualquer momento
+  workflow_dispatch:
+  
+  # executa a cada push na branch main
+  push:
+    branches:
+    - main
+    
+jobs:
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      # gera o gráfico do pacman a partir do seu usuário
+      - name: generate pacman-contribution-graph
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRIC_TOKEN }}
+          user: EduardaPerr
+          template: classic
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
