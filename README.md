@@ -1,12 +1,4 @@
-<div align="center">
-  <a href="https://discord.com/users/509429537000521774" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="21" alt="discord logo" />
-  </a>
 
-  <a href="mailto:eduardaperr.contact@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="21" alt="gmail logo" />
-  </a>
-</div>
 
 ###
 
